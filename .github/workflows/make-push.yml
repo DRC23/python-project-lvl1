@@ -1,0 +1,10 @@
+name: hexlet-check
+
+on:  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'poetry run flake8 brain_games'
+        run: make lint
