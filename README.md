@@ -11,4 +11,6 @@ Exapmle of installing the package and launching a brain-calc:
 
 https://asciinema.org/a/rTJ8zhuAxQkBMeaDyhDUg2yqB
 
+Examlpe of installing the package and launching a brain-gcd:
 
+https://asciinema.org/a/rzEriRRH9A5pCOhpb965n0omw
