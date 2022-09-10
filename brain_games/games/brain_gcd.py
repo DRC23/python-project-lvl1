@@ -27,7 +27,7 @@ def gcd():
             print('Correct!')
             count += 1
         else:
-            print(f"'{usr_num}' is wrong answer ;(. Correct answer was '{res}'")
+            print(f"'{usr_num}' is wrong answer ;(. Correct answer was '{res}'.")
             print(f"Let's try again, {name}!")
             return None
     print(f'Congratulations, {name}!')

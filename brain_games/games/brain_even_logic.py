@@ -21,6 +21,6 @@ def parity_check():
                 correct = 'no'
             else:
                 correct = 'yes'
-            print(f"'{user_num}' is wrong answer ;(. Correct answer was '{correct}'")
+            print(f"'{user_num}' is wrong answer ;(. Correct answer was '{correct}'.")
             return None
     print('Congratulations, {}!'.format(name))
