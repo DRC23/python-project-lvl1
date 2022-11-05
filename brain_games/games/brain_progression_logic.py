@@ -25,4 +25,4 @@ def progression():
             print(f"Let's try again, {name}!")
             return None
     print(f'Congratulations, {name}!')
-    
+
