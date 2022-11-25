@@ -13,7 +13,9 @@ def parity_check():
         num = randint(1, 100)
         print('Question:', num)
         user_num = input('Your answer: ')
-        if (num % 2 == 0 and user_num == 'yes') or (num % 2 == 1 and user_num == 'no'):
+        is_user_response_yes = num % 2 == 0 and user_num == 'yes'
+        is_user_response_no = num % 2 == 1 and user_num == 'no'
+        if is_user_response_yes or is_user_response_no:
             print('Correct')
             count += 1
         else:
@@ -21,6 +23,10 @@ def parity_check():
                 correct = 'no'
             else:
                 correct = 'yes'
-            print(f"'{user_num}' is wrong answer ;(. Correct answer was '{correct}'.")
+            print(f"'{user_num}' is wrong answer ;(. "
+                  f"Correct answer was '{correct}'.")
             return None
-    print('Congratulations, {}!'.format(name))
+    print(f'Congratulations, {name}!')
+
+
+parity_check()

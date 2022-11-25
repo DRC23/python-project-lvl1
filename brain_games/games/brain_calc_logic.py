@@ -22,7 +22,8 @@ def calc():
             print('Correct!')
             count += 1
         else:
-            print(f"'{usr_num}' is wrong answer ;(. Correct answer was '{num}'.")
+            print(f"'{usr_num}' is wrong answer ;(. "
+                  "Correct answer was '{num}'.")
             print("Let's try again, {}!".format(name))
             return None
     print('Congratulations, {}!'.format(name))

@@ -39,7 +39,8 @@ def prime():
                 right_ans = 'yes'
             else:
                 right_ans = 'no'
-            print(f"'{usr_ans}' is wrong answer ;(. Correct answer was '{right_ans}'.")
+            print(f"'{usr_ans}' is wrong answer ;(. "
+                  f"Correct answer was '{right_ans}'.")
             print(f"Let's try again, {name}!")
             return None
     print(f"Congratulations, {name}!")
