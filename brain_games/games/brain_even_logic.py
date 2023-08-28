@@ -28,5 +28,3 @@ def parity_check():
             return None
     print(f'Congratulations, {name}!')
 
-
-parity_check()
