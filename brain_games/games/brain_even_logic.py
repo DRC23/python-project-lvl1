@@ -27,4 +27,3 @@ def parity_check():
                   f"Correct answer was '{correct}'.")
             return None
     print(f'Congratulations, {name}!')
-
