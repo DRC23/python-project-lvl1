@@ -25,5 +25,6 @@ def parity_check():
                 correct = 'yes'
             print(f"'{user_num}' is wrong answer ;(. "
                   f"Correct answer was '{correct}'.")
+            print(f"Let's try again, {name}!")
             return None
     print(f'Congratulations, {name}!')
