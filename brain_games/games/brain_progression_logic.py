@@ -22,7 +22,7 @@ def progression():
             count += 1
         else:
             print(f"'{usr_num}' is wrong answer ;(. "
-                  "Correct answer was '{temp[del_num-1]}'.")
+                  f"Correct answer was '{temp[del_num-1]}'.")
             print(f"Let's try again, {name}!")
             return None
     print(f'Congratulations, {name}!')
