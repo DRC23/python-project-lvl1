@@ -18,12 +18,12 @@ def calc():
         num = eval(temp)
         print('Question:', temp)
         usr_num = input('Your answer: ')
-        if usr_num.isdigit() and int(usr_num) == num:
+        if usr_num.lstrip('-').isdigit() and int(usr_num) == num:
             print('Correct!')
             count += 1
         else:
             print(f"'{usr_num}' is wrong answer ;(. "
-                  "Correct answer was '{num}'.")
-            print("Let's try again, {}!".format(name))
+                  f"Correct answer was '{num}'.")
+            print(f"Let's try again, {name}!")
             return None
-    print('Congratulations, {}!'.format(name))
+    print(f'Congratulations, {name}!')
