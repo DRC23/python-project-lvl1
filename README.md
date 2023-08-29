@@ -3,19 +3,30 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
-Example of installing the package and launching a brain-game:
+Project description:
+Brain-Games
 
-https://asciinema.org/a/AwqgUFmohw0gb5qiBAPfFy40q
+Minimum requirements:
+Python version 3.6 or higher
+pip version 19 and higher
 
-Exapmle of installing the package and launching a brain-calc:
+Installation and startup instructions Brain-game:
 
-https://asciinema.org/a/rTJ8zhuAxQkBMeaDyhDUg2yqB
+https://asciinema.org/a/4JDrThgH9GIw9RL4XhZReFNcf
 
-Examlpe of installing the package and launching a brain-gcd:
+Parity check:
 
-https://asciinema.org/a/rzEriRRH9A5pCOhpb965n0omw
+https://asciinema.org/a/QxsT6uBTpza8xfFMVY1kOQCLC
 
-Examlpe of installing the package and launching a brain-progression:
+Calculator:
 
-https://asciinema.org/a/3hElbxe7eIFg7gZIw0tWUP1rp
+https://asciinema.org/a/xWVhspW5lBneJv5f2aGMBJopu
+
+Greatest common divisor:
+
+https://asciinema.org/a/uXaobkXfdBqPp6bdp2dNa1IF2
+
+Progression:
+
+https://asciinema.org/a/E5Hti04YkGzOsM73OgY5p1EM7
 
